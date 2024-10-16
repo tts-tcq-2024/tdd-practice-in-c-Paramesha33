@@ -1,0 +1,48 @@
+TDD driven string calculator : StringCalculator functionality that can take up to two numbers, separated by commas, and will return their sum.
+                               for example “” or “1” or “1,2” as inputs.
+
+
+Test Cases:
+1. Test Case Name: ExpectZeroForEmptyInput
+Input: "Hello, world!"
+output : 0
+
+2. Test Case Name: ExpectZeroForSingleZero
+Input: "0"
+output : 0
+
+3. Test Case Name: ExpectSumForTwoNumbers
+Input: "1,2"
+output : 3
+
+4. Test Case Name: ExpectSumWithNewlineDelimiter
+Input: ""1\n2,3""
+output : 6
+
+5. Test Case Name: IgnoreNumbersGreaterThan1000
+Input: "1,1001"
+output : 1
+
+6. Test Case Name: ExpectSumWithCustomDelimiter
+Input: "//;\n1;2"
+output : 3
+
+7. Test Case Name: Sumofintegercommadelimiter
+Input: "1,2"
+output : 113
+
+8. Test Case Name: Sumofintegercommaalphabets
+Input: 1,abchd,999"
+output : 1000
+
+9. Test Case Name: sumofemptystring
+Input: ""
+output : 0
+
+10. Test Case Name: sumofNullstring
+Input: NULL
+output : -1
+
+11. Test Case Name: sumofsignedintegercommadelimiter
+Input: "-1,-2"
+output : -1
